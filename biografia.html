@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Art</title>
+    <link rel="stylesheet" href="img/favicon.ico" type="image/x-icon">
+    <!--Google Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--Bootstrap Icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--Css do projeto-->
+    <link rel="stylesheet" href="css/stylesBiografia.css">
+    <!--JavaScrip Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="index.html" class="navbar-brand primary-color">
+                <img src="img/imovi-icon.png" alt="iMovi">
+                <span>Biografia</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#Inicio" class="nav-link active primary-color"
+                            aria-current="page">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contextoH.html" class="nav-link primary-color">Contexto Histórico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="obras.html" class="nav-link primary-color">Obras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="arquitetura.html" class="nav-link primary-color">Arquitetura</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Slider-->
+    <div id="Obras" class="container" id="slider-container">
+        <div id="slider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" id="Inicio" >
+                <div class="carousel-item active">
+                    <img src="img/pauline2.jpeg" class="d-block w-100" alt="Casa 1" />
+                    <div class="carousel-caption">
+                        <h5>Pauline Boty </h5>
+                        <a href="obras.html" class="btn btn-dark">Ver obras</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pauline3.jpeg" class="d-block w-100" alt="Casa 2" />
+                    <div class="carousel-caption">
+                        <h5>Pauline Boty</h5>
+                        <a href="obras.html" class="btn btn-dark">Ver Obras</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pauline4.jpeg" class="d-block w-100" alt="Casa 3" />
+                    <div class="carousel-caption">
+                        <h5>Pauline Boty</h5>
+                        <a href="obras.html" class="btn btn-dark">Ver Obras</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pauline5.jpeg" class="d-block w-100" alt="Casa 3" />
+                    <div class="carousel-caption">
+                        <h5>Pauline Boty</h5>
+                        <a href="#" class="btn btn-dark">Ver Obras</a>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <i class="bi bi-chevron-compact-left"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <i class="bi bi-chevron-compact-right"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+
+
+        <!--Mini banners-->
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-box primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Contexto Histórico</h5>
+                            <p class="card-text secondary-color">
+                                O Pop Art foi um movimento artístico que teve início nos anos 50, inicialmente na
+                                Inglaterra e Estados Unidos, como uma forma de reação ao expressionismo abstrato.
+                            </p>
+                            <a href="contextoH.html" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-layers primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Arquitetura Pop Art</h5>
+                            <p class="card-text secondary-color">
+                                Na arquitetura as cores da pop art invadiram as casas e ruas e transformaram os espaços antes sóbrios em lúdicos. 
+                                Este estilo aparece tanto compondo um espaço completo como apenas como um detalhe.
+
+                            </p>
+                            <a href="arquitetura.html" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-lightning-charge"></i>
+                        <div class="card-body primary-color">
+                            <h5 class="card-title primary-color">
+                                Obras de Pauline Boty
+                            </h5>
+                            <p class="card-text secondary-color">
+                                Pop Art é um movimento artístico que se caracteriza pela reprodução de temas
+                                relacionados ao consumo, publicidade e estilo de vida americano (american way of life).
+                            </p>
+                            <a href="obras.html" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" class="col-12 col-md-4">
+
+        <!--acordeão-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Infância, Educação e Carreira
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Pauline Veronica Boty nasceu no subúrbio do sul de Londres em 1938 em
+                        uma família católica de classe média. Era caçula de 4 filhos, tendo 3 irmãos mais velhos <br>e
+                        um pai rígido que a deixou ciente de sua posição como menina, na época. <p>
+                            Em 1954, aos 16 anos, ganhou uma bolsa de estudos para a Wimbledon School of Art, que
+                            frequentou apesar da desaprovação de seu pai. A mãe de Pauline, por outro lado, foi
+                            compreensiva, tendo sido ela mesma uma artista frustrada e negada a permissão dos pais para
+                            frequentar a Slade School of Fine Art. Boty obteve um diploma intermediário em litografia
+                            (1956) e um diploma nacional em design em vitrais (1958).
+                            Seus colegas de escola a chamavam de "The Wimbledon Bardot" por conta de sua semelhança com
+                            a estrela de cinema francesa Brigitte Bardot. <br>Encorajada por seu tutor Charles Carey a
+                            explorar técnicas de colagem, a pintura de Boty se tornou mais experimental. Seu trabalho
+                            mostrou um interesse pela cultura popular desde o início. Em 1957, uma de
+                            suas peças foi exibida na exposição <i>Young Contemporaries ao lado de trabalhos de Robyn
+                                Denny, Richard Smith e Bridget Riley.</i> <br>
+                            Ela estudou na School of Stained Glass no Royal College of Art (1958-1961). Ela queria
+                            frequentar a Escola de Pintura, mas foi dissuadida de se inscrever, pois as taxas de
+                            admissão para mulheres eram muito mais baixas nesse departamento. Apesar do sexismo
+                            institucionalizado em sua faculdade, Boty foi uma das alunas mais fortes de sua classe e, em
+                            1960, um dos seus vitrais foi incluído na exposição itinerante <i>Modern Stained Glass</i>
+                            organizada pelo Arts Council. Pauline continuou a pintar sozinha em seu apartamento de
+                            estudante no oeste de Londres e em 1959 ela teve mais três obras selecionadas para a
+                            exposição Young Contemporaries. Durante este tempo, ela também se tornou amiga de outros
+                            artistas pop emergentes, como <a href="https://pt.wikipedia.org/wiki/David_Hockney">David
+                                Hockney</a>, <a href="https://en.wikipedia.org/wiki/Derek_Boshier">Derek Boshier</a>, <a
+                                href="https://en.wikipedia.org/wiki/Peter_Phillips_(artist)">Peter Phillips</a> e <a
+                                href="https://pt.wikipedia.org/wiki/Peter_Blake"> Peter Blake</a>.
+                        <p>
+                            Enquanto estava no Royal College of Art , Boty se envolveu em várias atividades
+                            extracurriculares. Ela cantou, dançou e atuou em críticas ousadas de faculdades, publicou
+                            sua poesia em uma revista estudantil alternativa e foi uma presença conhecida no cineclube
+                            onde desenvolveu seu interesse, especialmente no cinema europeu da nova onda . Ela também
+                            participou ativamente do Anti-Ugly Action, um grupo de estudantes da RCA envolvidos nos
+                            vitrais e,
+                            posteriormente, na arquitetura, cursos que protestavam contra a nova arquitetura britânica
+                            que consideravam ofensiva e de baixa qualidade.
+                        <p>Boty estava mais produtiva dois anos depois de se formar na faculdade. Ela desenvolveu um
+                            estilo e iconografia pop de assinatura. Sua primeira exposição coletiva, " Blake , Boty,
+                            Porter, Reeve", foi realizada em novembro de
+                            1961 na AIA Gallery em Londres e foi aclamada como uma das primeiras exposições de arte pop
+                            britânica. Ela exibiu vinte colagens, incluindo "É um pássaro, é um avião?" e "uma rosa é
+                            uma rosa é uma rosa" , o que demonstrou seu interesse em desenhar fontes de alta e baixa
+                            cultura popular em sua arte (o primeiro título faz referência ao quadrinho do Super -Homem ,
+                            o segundo cita a poetisa americana expatriada Gertrude Stein). Na primavera seguinte, Boty,
+                            Peter Blake, Derek Boshier e Peter Phillips foram apresentados no documentário de Ken
+                            Russell , da BBC Monitor , Pop Goes the Easel , que foi ao ar em 22 de março de 1962. A
+                            aparição de Boty em Pop Goes the Easel marcou o início de sua breve carreira de atriz. Ela
+                            conseguiu papéis em uma peça do Armchair Theatre para ITV ("North City Traffic Straight
+                            Ahead", 1962) e um episódio da série da BBC Maigret
+                            ("Peter the Lett", 1963). Ela também apareceu no palco na comédia de Frank Hilton Day of the
+                            Prince no Royal Court , e em Riccardo Aragno (do romance de Anthony Powell ) Afternoon Men
+                            no New Arts Theatre. (Boty, um regular na cena do clube em Londres, também foi dançarino no
+                            Ready Steady Go!). Embora atuar fosse lucrativo, era uma distração da pintura, que
+                            continuava sendo sua principal prioridade. No entanto, os homens em sua vida a encorajaram a
+                            atuar, pois era uma escolha de carreira mais convencional para as mulheres no início dos
+                            anos 1960. A imprensa popular pegou em sua personalidade de atriz glamourosa, muitas vezes
+                            minando sua legitimidade como artista, referindo-se à sua aparência física.
+                            Scene publicou um artigo de primeira página em novembro de 1962 que incluía as seguintes
+                            observações: <b>"As atrizes geralmente têm cérebros minúsculos. Os pintores geralmente têm
+                                barbas grandes. Imagine uma atriz inteligente que também é pintorae também loira, e você
+                                tem Pauline Boty". </b>
+                        <p>
+                            Sua posição única como a única artista pop feminina da Grã-Bretanha deu a Boty a chance de
+                            corrigir o sexismo em sua vida, bem como em sua arte. Suas primeiras pinturas eram sensuais
+                            e eróticas, celebrando a sexualidade feminina do ponto de vista de uma mulher. Suas telas
+                            foram colocadas em fundos vívidos e coloridos e muitas vezes incluíam close-ups de flores
+                            vermelhas, presumivelmente simbólicas do sexo feminino. Ela pintou seus ídolos masculinos –
+                            Elvis , o ator francês Jean-Paul Belmondo , o escritor britânico Derek Marlowe – como
+                            símbolos sexuais, assim como fez com as atrizes Monica Vitti e Marilyn Monroe . Como Andy
+                            Warhol, ela reciclou fotos publicitárias e de imprensa de celebridades em sua arte. Seu
+                            retrato de 1963 de sua amiga Celia Birtwell , Celia and Her Heroes , mostra a designer
+                            têxtil cercada por uma pintura de Peter Blake, um retrato de David Hockney e uma imagem de
+                            Elvis Presley. <br>
+                            Ela expôs em várias outras mostras coletivas antes de encenar sua primeira exposição
+                            individual na Grabowski Gallery no outono de 1963. A mostra foi um sucesso de crítica. Boty
+                            continuou a assumir trabalhos adicionais de atuação. Ela foi apresentadora do programa de
+                            rádio Public Ear em 1963-1964 e, no ano seguinte, foi novamente rotulada no papel de 'a
+                            sedutora Maria' em um seriado da BBC. <br>Em junho de 1963, ela se casou com o agente
+                            literário Clive Goodwin (1932-1978) após um romance de dez dias. Seu casamento decepcionou
+                            outros como Peter Blake e seu amante casado, o diretor de televisão Philip Saville , a quem
+                            ela conheceu no final de seus dias de estudante e para quem trabalhou. (Dizem que o caso
+                            deles forneceu o material para um roteiro de Frederic Raphael para o filme Darling (1965).)
+                            <br>
+                            O apartamento de Boty e Goodwin em Cromwell Road tornou-se um ponto de encontro central para
+                            muitos artistas, músicos e escritores, incluindo Bob Dylan (que Boty trouxe para a
+                            Inglaterra), David Hockney, Peter Blake, Michael White, Kenneth Tynan , Troy Kennedy Martin
+                            , John McGrath , Dennis Potter e Roger McGough . Goodwin, que mais tarde seria membro da
+                            equipe editorial fundadora do jornal radical Black Dwarf , teria encorajado Boty a incluir
+                            conteúdo político em suas pinturas.
+                        <p> Suas pinturas se tornaram mais abertamente críticas ao longo do tempo. Contagem regressiva
+                            para a violência retrata uma série de eventos atuais angustiantes, incluindo o motim de
+                            Birmingham de 1963 , o assassinato de John F. Kennedy e a Guerra do Vietnã . Cuba Si (1963)
+                            faz referência à revolução cubana . A pintura de colagem It's a Man's World I (1964)
+                            justapõe imagens de ícones patriarcais The Beatles , Albert Einstein , Lenin , Muhammad Ali
+                            , Marcel Proust e outros homens. Em It's a Man's World II(1965-1966) ela reexibiu nus
+                            femininos de belas artes e fontes pornográficas soft-core para significar "erotismo
+                            feminino" recém liberado.
+                            Sua última pintura conhecida, BUM , foi encomendada por Kenneth Tynan para "Oh, Calcutta!" e
+                            foi concluído em 1966.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Morte
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Em junho de 1965, Boty engravidou. Durante um exame pré-natal, um tumor foi descoberto e ela
+                            foi diagnosticada com câncer ( Timoma maligno ). Ela se recusou a fazer um aborto e também
+                            se recusou a receber tratamento de quimioterapia que poderia ter prejudicado o feto. Em vez
+                            disso, ela fumou maconha para aliviar a dor de sua condição terminal. Ela continuou a
+                            entreter seus amigos e até esboçou os Rolling Stones durante sua doença.Sua filha, Katy
+                            (mais tarde Boty)
+                            Goodwin, nasceu em 12 de fevereiro de 1966. Pauline Boty morreu no Royal Marsden Hospital em
+                            1 de julho daquele ano. Ela tinha 28 anos. Sua filha, Boty Goodwin, morreu de overdose em 12
+                            de novembro de 1995, aos 29 anos.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Legado
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Após sua morte, as pinturas de Pauline Boty foram guardadas em um
+                            celeiro na fazenda de seu irmão e ela foi esquecida por quase 30 anos. Seu trabalho foi
+                            redescoberto na década de 1990, renovando o interesse em sua contribuição para a arte pop, e
+                            ganhando sua inclusão em várias exposições coletivas e uma grande retrospectiva solo. A
+                            localização atual de várias de suas pinturas mais procuradas é desconhecida.
+                            Em dezembro de 2013, Adrian Hamilton escreveu no <i>The Independent</i>: "Ignorado por
+                            décadas após sua morte - foram quase 30 anos antes de sua primeira foto ser mostrada - uma
+                            retrospectiva adequada teve que esperar até este ano com um show que se originou em
+                            Wolverhampton e agora abriu na Pallant Gallery em Chichester. Olhando para suas fotos hoje,
+                            é simplesmente incrível que tenha demorado tanto. [...] Não é uma grande exposição. Dada a
+                            escassez de seu trabalho sobrevivente, não poderia mas é o que deixa você ansioso por mais,
+                            mais dos quadros que ela pintou e dos que ela não viveu o suficiente." <br>
+                            A vida e o trabalho de Boty também formam um tema importante no romance de 2016 de Ali Smith
+                            , Autumn . <br> Em novembro de 2019, o New York Times apresentou Boty em seu Overlooked
+                            (obituário) , Pauline Boty, Rebellious Pop Artist.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <!--citações-->
+        <div class="citações" >
+           <h5>CITAÇÕES</h5>
+            <div class="card">
+                <div class="card-body-cit">
+                    <blockquote class="blockquote mb-0">
+                        <p>"Uma revolução está a caminho, e é em parte porque não tiramos mais nossos padrões do top de
+                            tweedy. Por todo país, as jovens estão começando,
+                            gritando e tremendo, e se elas te aterrorizam, elas querem e estão começando a impressionar
+                            o mundo."</p>
+                        <footer class="blockquote-footer"> Pauline Boty </footer>
+                    </blockquote>
+                    <br>
+                </div>
+                
+                <div class="card-body-cit">
+                    <blockquote class="blockquote mb-0">
+                        <p>"O sexo pode ser tão variado quanto o estar vivo pode ser variado."</p>
+                        <footer class="blockquote-footer"> Pauline Boty </footer>
+                    </blockquote>
+                    <br>
+                </div>
+                <div class="card-body-cit">
+                    <blockquote class="blockquote mb-0">
+                        <p>"Muitas mulheres são intelectualmente mais espertas do que muitos homens. Mas é difícil para
+                            os homens aceitarem a ideia."</p>
+                        <footer class="blockquote-footer"> Pauline Boty </footer>
+                    </blockquote>
+                    <br>
+                </div>
+                <div class="card-body-cit">
+                    <blockquote class="blockquote mb-0">
+                        <p>"As estrelas de cinema são os Deuses e Deusas do século 20. As pessoas precisam deles, e dos
+                            mitos que os cercam, porque suas próprias vidas são enriquecidas por eles. A arte pop colore
+                            esses mitos."</p>
+                        <footer class="blockquote-footer"> Pauline Boty </footer>
+                    </blockquote>
+                    <br>
+                </div>
+                <div class="card-body-cit">
+                    <blockquote class="blockquote mb-0">
+                        <p>"Estou muito inclinada a desempenhar o papel que alguém define para mim, principalmente
+                            quando conheço pessoas pela primeira vez. Uma das razões pelas quais me casei com Clive foi
+                            porque ele realmente
+                            como um ser humano, uma pessoa com uma mente."</p>
+                        <footer class="blockquote-footer"> Pauline Boty </footer>
+                    </blockquote>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <!--Footer-->
+    <footer class="container-fluid bg-dark-color" id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- FOOTER TOP -->
+                <div class="col-12" id="footer-top">
+                    <div class="row justify-content-between">
+                        <div class="col-4">
+                            <h2>
+                                Pop Art
+                            </h2>
+                        </div>
+                        <div class="col-4" id="social-icons">
+
+
+
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-instagram"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="http://instagram.com/brunowillian23?igshid=YmMyMTA2M2Y=">Bruno</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="http://instagram.com/laylaa_xl?igshid=YmMyMTA2M2Y=">Layla Elias</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="http://instagram.com/pedro_henrique_1104?igshid=YmMyMTA2M2Y=">Pedro
+                                            Henrique da Silva</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER DETAILS -->
+                <div class="col-12" id="footer-details">
+                    <div class="row">
+                        <div class="col-12 col-md-4" id="news-container">
+                            <h4>Fique por dentro dos conteúdos</h4>
+                            <p class="secondary-color">
+                                Mande sua sugestão
+                            </p>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Mande seu email para mais informações" />
+                                </div>
+                                <button class="btn btn-dark">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-4" id="contact-container">
+                            <h4>Grupo</h4>
+                            <p class="secondary-color">Bruno Willian</p>
+                            <p class="secondary-color">Layla Elias</p>
+                            <p class="secondary-color">Pedro Henrique da Silva</p>
+                        </div>
+                        <div class="col-12 col-md-4" id="links-container">
+                            <div class="row">
+                                <h4>Você pode estar buscando por:</h4>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="https://www.todamateria.com.br/body-art/"
+                                                class="secondary-color">Body Art</a></li>
+                                        <li><a href="https://www.portugues.com.br/literatura/barroco.html#:~:text=O%20barroco%20%C3%A9%20um%20movimento,o%20in%C3%ADcio%20do%20s%C3%A9culo%20XVIII."
+                                                class="secondary-color">Barroco</a></li>
+                                        <li><a href="https://www.todamateria.com.br/realismo/#:~:text=O%20realismo%20foi%20um%20movimento,sua%20vis%C3%A3o%20idealizada%20da%20vida."
+                                                class="secondary-color">Realismo</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="https://www.educamaisbrasil.com.br/enem/artes/fauvismo"
+                                                class="secondary-color">Fauvismo</a></li>
+                                        <li>
+                                            <a href="https://www.todamateria.com.br/expressionismo/"
+                                                class="secondary-color">Expressionismo</a>
+                                        </li>
+                                        <li><a href="https://www.todamateria.com.br/impressionismo/#:~:text=O%20impressionismo%20foi%20uma%20tend%C3%AAncia,propulsora%20das%20chamadas%20vanguardas%20europeias."
+                                                class="secondary-color">Impressionismo</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FOOTER BOTTOM -->
+                <div class="col-12" id="footer-bottom">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-md-3">
+                            <p class="secondary-color">Pop Art &copy; 2022</p>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <p class="secondary-color">
+                                Acho que vale um MB
+                                <i class="bi bi-heart"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

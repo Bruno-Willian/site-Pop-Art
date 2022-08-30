@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Art</title>
+    <link rel="stylesheet" href="img/favicon.ico" type="image/x-icon">
+    <!--Google Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--Bootstrap Icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--Css do projeto-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--JavaScrip Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="#" class="navbar-brand primary-color">
+                <img src="img/imovi-icon.png" alt="iMovi">
+                <span>Pop Art</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#Inicio" class="nav-link active primary-color" aria-current="page">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Conteudo" class="nav-link primary-color">Conteúdo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Pauline" class="nav-link primary-color">Pauline</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Arquitetura" class="nav-link primary-color">Arquitetura</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Slider-->
+    <div id="Obras" class="container" id="slider-container">
+        <div id="slider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" id="Inicio">
+                <div class="carousel-item active">
+                    <img src="img/a1.jpg" class="d-block w-100" alt="Casa 1" />
+                    <div class="carousel-caption">
+                        <h5>Decorações Pop Art </h5>
+                        <a href="obras.html" class="btn btn-dark">Ver Obras</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/aa2.jpg" class="d-block w-100" alt="Casa 2" />
+                    <div class="carousel-caption">
+                        <h5>Decorações Pop Art</h5>
+                        <a href="obras.html" class="btn btn-dark">Ver Obras</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/a3.jpg" class="d-block w-100" alt="Casa 3" />
+                    <div class="carousel-caption">
+                        <h5>Decorações Pop Art</h5>
+                        <a href="obras.html" class="btn btn-dark">Ver Obras</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <i class="bi bi-chevron-compact-left"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <i class="bi bi-chevron-compact-right"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+
+
+        <!--Mini banners-->
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-box primary-color"></i>
+                        <div class="card-body" id="Conteudo">
+                            <h5 class="card-title primary-color">Contexto Histórico</h5>
+                            <p class="card-text secondary-color">
+                                O Pop Art foi um movimento artístico que teve início nos anos 50, inicialmente na
+                                Inglaterra e Estados Unidos, como uma forma de reação ao expressionismo abstrato.
+                            </p>
+                            <a href="contextoH.html" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-layers primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Biografia Pauline Boty</h5>
+                            <p class="card-text secondary-color">
+                                Única pintora mulher do movimento na ala britânica. As pinturas expressa alegria na
+                                feminilidade, autoconfiança e sexualidade feminina. Nasceu: 6/03/1938 - Morreu:
+                                01/07/1966
+                            </p>
+                            <a href="biografia.html" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-lightning-charge"></i>
+                        <div class="card-body primary-color">
+                            <h5 class="card-title primary-color">
+                                Obras de Pauline Boty
+                            </h5>
+                            <p class="card-text secondary-color">
+                                Pop Art é um movimento artístico que se caracteriza pela reprodução de temas
+                                relacionados ao consumo, publicidade e estilo de vida americano (american way of life).
+                            </p>
+                            <a href="obras.html" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DESTAQUES -->
+    <div id="Pauline" class="container" id="featured-container">
+        <div class="col-12">
+            <h2 id="obras" class="title primary-color">Pauline</h2>
+            <p class="subtitle secondary-color">
+                Conheça a vida de Pauline Boty
+            </p>
+        </div>
+        <div class="col-12" id="featured-images">
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <img src="img/g1.jpg" alt="Projeto 1" class="img-fluid" />
+                    <div class="banner-content">
+                        <p class="secondary-color">Pintora</p>
+                        <h3>Pauline Boty</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/g2.jpg" alt="Projeto 2" class="img-fluid" />
+                    <div class="banner-content">
+                        <p class="secondary-color">Pintora</p>
+                        <h3>Pauline Boty</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/g3.jpg" alt="Projeto 3" class="img-fluid" />
+                    <div class="banner-content">
+                        <p class="secondary-color">Pintora</p>
+                        <h3>Pauline Boty</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/g4.jpg" alt="Projeto 4" class="img-fluid" />
+                    <div class="banner-content">
+                        <p class="secondary-color">Pintora</p>
+                        <h3>Pauline Boty</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/g5.jpg" alt="Projeto 5" class="img-fluid" />
+                    <div class="banner-content">
+                        <p class="secondary-color"> Pintora </p>
+                        <h3>Pauline Boty</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/g6.jpg" alt="Projeto 6" class="img-fluid" />
+                    <div class="banner-content">
+                        <p class="secondary-color"> Pintora</p>
+                        <h3>Pauline Boty</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- INFO -->
+    <div class="container" id="info-container">
+        <div class="col-12">
+            <h2 class="title primary-color" id="Arquitetura"> Arquitetura</h2>
+            <p class="subtitle secondary-color">
+                Saiba mais sobre o Pop Art
+            </p>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-5" id="info-banner">
+                    <img src="img/POP ART.jpg" alt="Informações" class="img-fluid" />
+                </div>
+                <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="title">Como é a arquitetura do Pop Art:</h2>
+                            <p class="subtitle secondary-color">
+                                Na arquitetura as cores da pop art invadiram as casas e ruas e transformaram os espaços
+                                antes sóbrios em lúdicos.
+                                Hoje a Pop Art volta a ser utilizada na decoração.
+                                É facilmente associada a juventude e a atividade. Este estilo aparece tanto compondo um
+                                espaço completo como apenas como um detalhe na decoração tradicional.
+                            </p>
+                        </div>
+                        <div class="col-12" id="info-numbers">
+                            <div class="row">
+                                <div class="col-4">
+                                    <h3 class="primary-color">1950</h3>
+                                    <p class="secondary-color">Surgimento Pop Art</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="primary-color">1962</h3>
+                                    <p class="secondary-color">Primeira Obra em Nova Iorque</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="primary-color">1947</h3>
+                                    <p class="secondary-color">Primeira Obra do Pop Art</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a class="btn btn-dark" href="arquitetura.html">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="container-fluid bg-dark-color" id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- FOOTER TOP -->
+                <div class="col-12" id="footer-top">
+                    <div class="row justify-content-between">
+                        <div class="col-4">
+                            <h2>
+                                Pop Art
+                            </h2>
+                        </div>
+                        <div class="col-4" id="social-icons">
+
+
+
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-instagram"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="http://instagram.com/brunowillian23?igshid=YmMyMTA2M2Y=">Bruno</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="http://instagram.com/laylaa_xl?igshid=YmMyMTA2M2Y=">Layla Elias</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="http://instagram.com/pedro_henrique_1104?igshid=YmMyMTA2M2Y=">Pedro
+                                            Henrique da Silva</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER DETAILS -->
+                <div class="col-12" id="footer-details">
+                    <div class="row">
+                        <div class="col-12 col-md-4" id="news-container">
+                            <h4>Fique por dentro dos conteúdos</h4>
+                            <p class="secondary-color">
+                                Mande sua sugestão
+                            </p>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control"
+                                        placeholder="Mande seu email para mais informações" />
+                                </div>
+                                <button class="btn btn-dark">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-4" id="contact-container">
+                            <h4>Grupo</h4>
+                            <p class="secondary-color">Bruno Willian</p>
+                            <p class="secondary-color">Layla Elias</p>
+                            <p class="secondary-color">Pedro Henrique da Silva</p>
+                        </div>
+                        <div class="col-12 col-md-4" id="links-container">
+                            <div class="row">
+                                <h4>Você pode estar buscando por:</h4>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="https://www.todamateria.com.br/body-art/"
+                                                class="secondary-color">Body Art</a></li>
+                                        <li><a href="https://www.portugues.com.br/literatura/barroco.html#:~:text=O%20barroco%20%C3%A9%20um%20movimento,o%20in%C3%ADcio%20do%20s%C3%A9culo%20XVIII."
+                                                class="secondary-color">Barroco</a></li>
+                                        <li><a href="https://www.todamateria.com.br/realismo/#:~:text=O%20realismo%20foi%20um%20movimento,sua%20vis%C3%A3o%20idealizada%20da%20vida."
+                                                class="secondary-color">Realismo</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="https://www.educamaisbrasil.com.br/enem/artes/fauvismo"
+                                                class="secondary-color">Fauvismo</a></li>
+                                        <li>
+                                            <a href="https://www.todamateria.com.br/expressionismo/"
+                                                class="secondary-color">Expressionismo</a>
+                                        </li>
+                                        <li><a href="https://www.todamateria.com.br/impressionismo/#:~:text=O%20impressionismo%20foi%20uma%20tend%C3%AAncia,propulsora%20das%20chamadas%20vanguardas%20europeias."
+                                                class="secondary-color">Impressionismo</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FOOTER BOTTOM -->
+                <div class="col-12" id="footer-bottom">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-md-3">
+                            <p class="secondary-color">Pop Art &copy; 2022</p>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <p class="secondary-color">
+                                Acho que vale um MB
+                                <i class="bi bi-heart"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

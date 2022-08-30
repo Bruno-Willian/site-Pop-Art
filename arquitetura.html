@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitetura</title>
+    <link rel="stylesheet" href="img/favicon.ico" type="image/x-icon">
+    <!--Google Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--Bootstrap Icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--Css do projeto-->
+    <link rel="stylesheet" href="css/stylesArquitetura.css">
+    <!--JavaScrip Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="index.html" class="navbar-brand primary-color">
+                <img src="img/imovi-icon.png" alt="iMovi">
+                <span>Arquitetura</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#Inicio" class="nav-link active primary-color"
+                            aria-current="page">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contextoH.html" class="nav-link primary-color">Contexto Histórico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="biografia.html" class="nav-link primary-color">Biografia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="obras.html" class="nav-link primary-color">Obras</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+    <div class="container" class="col-12">
+            <!--Slider-->
+    <div id="Obras" class="container" id="slider-container">
+        <div id="slider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner" id="Inicio">
+                <div class="carousel-item active">
+                    <img src="img/ca1.jpg" class="d-block w-100" alt="Casa 1" />
+                    <div class="carousel-caption">
+                        <h5>Arquitetura Pop Art </h5>
+                        <a href="obras.html" class="btn btn-dark">Ver Obras</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ca2.jpg" class="d-block w-100" alt="Casa 2" />
+                    <div class="carousel-caption">
+                        <h5>Arquitetura Pop Art</h5>
+                        <a href="obras.html" class="btn btn-dark">Ver Obras</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ca3.jpg" class="d-block w-100" alt="Casa 3" />
+                    <div class="carousel-caption">
+                        <h5>Arquitetura Pop Art</h5>
+                        <a href="obras.html" class="btn btn-dark">Ver Obras</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ca4.jpg" class="d-block w-100" alt="Casa 4" />
+                    <div class="carousel-caption">
+                        <h5>Arquitetura Pop Art</h5>
+                        <a href="obras.html" class="btn btn-dark">Ver Obras</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <i class="bi bi-chevron-compact-left"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <i class="bi bi-chevron-compact-right"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+
+
+        <!--Mini banners-->
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-box primary-color"></i>
+                        <div class="card-body" id="Conteudo" >
+                            <h5 class="card-title primary-color">Contexto Histórico</h5>
+                            <p class="card-text secondary-color">
+                                O Pop Art foi um movimento artístico que teve início nos anos 50, inicialmente na
+                                Inglaterra e Estados Unidos, como uma forma de reação ao expressionismo abstrato.
+                            </p>
+                            <a href="contextoH.html" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-layers primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Biografia Pauline Boty</h5>
+                            <p class="card-text secondary-color">
+                                Única pintora mulher do movimento na ala britânica. As pinturas expressa alegria na
+                                feminilidade, autoconfiança e sexualidade feminina. Nasceu: 6/03/1938 - Morreu: 01/07/1966
+                            </p>
+                            <a href="biografia.html" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-lightning-charge"></i>
+                        <div class="card-body primary-color">
+                            <h5 class="card-title primary-color">
+                                Obras de Pauline Boty
+                            </h5>
+                            <p class="card-text secondary-color">
+                                Pop Art é um movimento artístico que se caracteriza pela reprodução de temas
+                                relacionados ao consumo, publicidade e estilo de vida americano (american way of life).
+                            </p>
+                            <a href="obras.html" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <div class="text">
+        <h3>Pop Art na Arquitetura</h3>
+    </div>
+        <br>
+    
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Ambientes fechados
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    Hoje em dia, quase todas as tendências de decoração misturam objetos diferentes e divertidos. Assim é o Pop Art,
+                    um estilo que vem encantando, há décadas, arquitetos e designers, e conquistando adeptos em todo o mundo cada vez mais.
+                    O que agrada tanto as pessoas é o fato de que permite tantas possibilidades de inovação
+                    e exploração da criatividade. <br>
+                    Para os decoradores o Pop Art representa a quebra de ambientes muito neutros e
+                    austeros por meio de objetos chamativos e coloridos. A maior inspiração são os elementos da cultura popular.
+                    Nos anos sessenta – auge do Pop Art -, os ambientes passaram a ser decorados com peças em materiais
+                     como acrílico, látex e poliéster. Um exemplo clássico é a cadeira Panton,
+                       a primeira cadeira em plástico da história a ser fabricada em série. Criações como esta
+                       também promoviam o movimento e os bens de consumo – e o melhor, a baixo custo.
+                       Era comum ver objetos fazendo referência a anúncios comerciais e artistas de televisão
+                        e cinema. Simplesmente uma forma de criticar, com ironia, a sociedade
+                         materialista e consumista da época – ou seja, o retrato do capitalismo.
+                         Não por menos, tudo foi muito provocante e ousado, até chegando a ser repetitivo. Técnicas e tecnologias foram
+                          exploradas ao máximo neste tempo, como a colagem e o neon.
+                          Quem optar por decorar uma casa no estilo Pop Art vai perceber que a maioria das peças utilizadas é de baixo custo.
+                          O motivo disso é que muita coisa vendida nessa linha artística é feita em materiais mais barato, como o plástico e papel.
+                          Um ambiente clean pode receber o toque certo de energia através de peças coloridas e obras inspiradas no Pop Art.
+                          Lugares muito monótonos receberão esse mesmo contraste interessante.
+                </div>
+              </div>
+            </div>
+          
+              <br>
+              <figure class="figure">
+                <img src="img/b1.jpg" class="figure-img img-fluid rounded" alt="..." height="265px" width="365px">
+                <figcaption class="figure-caption"></figcaption>
+              </figure>
+              <figure class="figure">
+                <img src="img/b2.jpg" class="figure-img img-fluid rounded" alt="..." height="265px" width="365px">
+                <figcaption class="figure-caption"></figcaption>
+              </figure>
+              <figure class="figure">
+                <img src="img/b3.jpg" class="figure-img img-fluid rounded" alt="..." height="265px" width="365px">
+                <figcaption class="figure-caption"></figcaption>
+              </figure>
+    
+              <br>
+    
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Influência Urbana
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">A pop art influenciou o grafite e a arte urbana dos dias de hoje. Por exemplo, a escolha das técnicas, das linhas e cores, além dos próprios temas-alvo. Muito dessa crítica a cultura do consumo também pode ser vista através das obras de muitos grafiteiros ou outros artistas que usam técnicas diferentes. </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            
+              <figure class="figure">
+                <img src="img/influ1.jpg" class="figure-img img-fluid rounded" alt="..." height="265px" width="365px">
+                <figcaption class="figure-caption"></figcaption>
+              </figure>
+              <figure class="figure">
+                <img src="img/influ2.jpg" class="figure-img img-fluid rounded" alt="..." height="265px" width="365px">
+                <figcaption class="figure-caption"></figcaption>
+              </figure>
+              <figure class="figure">
+                <img src="img/influ3.jpg" class="figure-img img-fluid rounded" alt="..." height="265px" width="365px">
+                <figcaption class="figure-caption"></figcaption>
+              </figure>
+            </div>
+
+
+
+        <!--Footer-->
+        <footer class="container-fluid bg-dark-color" id="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- FOOTER TOP -->
+                    <div class="col-12" id="footer-top">
+                        <div class="row justify-content-between">
+                            <div class="col-4">
+                                <h2>
+                                    Pop Art
+                                </h2>
+                            </div>
+                            <div class="col-4" id="social-icons">
+
+
+
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bi bi-instagram"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item"
+                                                href="http://instagram.com/brunowillian23?igshid=YmMyMTA2M2Y=">Bruno</a>
+                                        </li>
+                                        <li><a class="dropdown-item"
+                                                href="http://instagram.com/laylaa_xl?igshid=YmMyMTA2M2Y=">Layla
+                                                Elias</a>
+                                        </li>
+                                        <li><a class="dropdown-item"
+                                                href="http://instagram.com/pedro_henrique_1104?igshid=YmMyMTA2M2Y=">Pedro
+                                                Henrique da Silva</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FOOTER DETAILS -->
+                    <div class="col-12" id="footer-details">
+                        <div class="row">
+                            <div class="col-12 col-md-4" id="news-container">
+                                <h4>Fique por dentro dos conteúdos</h4>
+                                <p class="secondary-color">
+                                    Mande sua sugestão
+                                </p>
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control"
+                                            placeholder="Mande seu email para mais informações" />
+                                    </div>
+                                    <button class="btn btn-dark">Enviar</button>
+                                </form>
+                            </div>
+                            <div class="col-12 col-md-4" id="contact-container">
+                                <h4>Grupo</h4>
+                                <p class="secondary-color">Bruno Willian</p>
+                                <p class="secondary-color">Layla Elias</p>
+                                <p class="secondary-color">Pedro Henrique da Silva</p>
+                            </div>
+                            <div class="col-12 col-md-4" id="links-container">
+                                <div class="row">
+                                    <h4>Você pode estar buscando por:</h4>
+                                    <div class="col-6">
+                                        <ul class="list-unstyled">
+                                            <li><a href="https://www.todamateria.com.br/body-art/"
+                                                    class="secondary-color">Body Art</a></li>
+                                            <li><a href="https://www.portugues.com.br/literatura/barroco.html#:~:text=O%20barroco%20%C3%A9%20um%20movimento,o%20in%C3%ADcio%20do%20s%C3%A9culo%20XVIII."
+                                                    class="secondary-color">Barroco</a></li>
+                                            <li><a href="https://www.todamateria.com.br/realismo/#:~:text=O%20realismo%20foi%20um%20movimento,sua%20vis%C3%A3o%20idealizada%20da%20vida."
+                                                    class="secondary-color">Realismo</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="list-unstyled">
+                                            <li><a href="https://www.educamaisbrasil.com.br/enem/artes/fauvismo"
+                                                    class="secondary-color">Fauvismo</a></li>
+                                            <li>
+                                                <a href="https://www.todamateria.com.br/expressionismo/"
+                                                    class="secondary-color">Expressionismo</a>
+                                            </li>
+                                            <li><a href="https://www.todamateria.com.br/impressionismo/#:~:text=O%20impressionismo%20foi%20uma%20tend%C3%AAncia,propulsora%20das%20chamadas%20vanguardas%20europeias."
+                                                    class="secondary-color">Impressionismo</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FOOTER BOTTOM -->
+                    <div class="col-12" id="footer-bottom">
+                        <div class="row justify-content-between">
+                            <div class="col-12 col-md-3">
+                                <p class="secondary-color">Pop Art &copy; 2022</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <p class="secondary-color">
+                                    Acho que vale um MB
+                                    <i class="bi bi-heart"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
